@@ -6,13 +6,16 @@
   margin: 10px;
   gap: 20px;
 }
+
 #sticky {
-  height: 162px;
+  height: 175px;
   display: block !important;
   position: sticky;
   background-color: #FCE7E7;
   border: 0px solid black;
   top: 0;
+  margin: -10px -10px 0px -20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #profilephoto {
@@ -26,6 +29,7 @@
   margin-right: 20px;
 }
 #profileinfo {
+  margin-top: 10px;
   height: 150px;
   display: inline-block;
   border: 0px solid black;
@@ -47,9 +51,10 @@
 }
 
 #frame {
-  border: 1px solid black;
+  border: 2px solid lightsteelblue;
   height: 150px;
   width: 150px;
+  padding: 0;
   background-color: white;
   border-top-right-radius: 10%;
   border-top-left-radius: 10%;
@@ -80,6 +85,7 @@
 }
 
 footer {
+  margin: 0px -100px -100px -100px;
   background-color: black;
   color: white;
   text-align: center;
