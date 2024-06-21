@@ -6,13 +6,12 @@
   margin: 10px;
   gap: 20px;
 }
-
 #sticky {
-  height: 152px;
+  height: 162px;
   display: block !important;
   position: sticky;
-  background-color: white;
-  border: 1px solid black;
+  background-color: #FCE7E7;
+  border: 0px solid black;
   top: 0;
 }
 
@@ -20,36 +19,43 @@
   height: 150px;
   display: inline-block;
   width: 150px;
+  border: 0px solid black;
   border-radius: 50%;
-  border: 1px solid black;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 #profileinfo {
   height: 150px;
   display: inline-block;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 #infobutton {
   width: 49px;
   background-color: pink;
   border-radius: 5px;
   margin-right: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 #downloadbutton {
   width: 98px;
   background-color: lightblue;
   border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #frame {
   border: 1px solid black;
   height: 150px;
   width: 150px;
+  background-color: white;
   border-top-right-radius: 10%;
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
   display: inline-block;
   overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 #info {
   border: 0px solid black;
