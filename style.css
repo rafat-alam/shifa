@@ -1,0 +1,47 @@
+#gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 20px;
+}
+
+#infobutton {
+  height: 50px;
+  width: 150px;
+  background-color: pink;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+#frame {
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  display: inline-block;
+  overflow: hidden;
+}
+#info {
+  border: 0px solid black;
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+}
+#photo {
+  border: 0px solid black;
+  height: 207px;
+  width: 152px;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
