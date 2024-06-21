@@ -7,12 +7,37 @@
   gap: 20px;
 }
 
-#infobutton {
-  height: 50px;
+#sticky {
+  height: 152px;
+  display: block !important;
+  position: sticky;
+  background-color: white;
+  border: 1px solid black;
+  top: 0;
+}
+
+#profilephoto {
+  height: 150px;
+  display: inline-block;
   width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#profileinfo {
+  height: 150px;
+  display: inline-block;
+  border: 1px solid black;
+}
+#infobutton {
+  width: 49px;
   background-color: pink;
-  font-weight: 700;
-  border-radius: 15px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+#downloadbutton {
+  width: 98px;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 #frame {
@@ -28,13 +53,13 @@
 }
 #info {
   border: 0px solid black;
-  height: 50px;
+  height: 21px;
   width: 150px;
   display: inline-block;
 }
 #photo {
   border: 0px solid black;
-  height: 207px;
+  height: 178px;
   width: 152px;
 }
 
