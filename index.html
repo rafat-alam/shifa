@@ -6,8 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <title>ALBUM WITH SHIFA</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icon.jpg" />
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+    document.onkeydown = (e) => {
+      if (e.key == 123) { // F12
+        e.preventDefault();
+    }
+      if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+    }
+      if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+    }
+      if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+    }
+      if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+    }
+  };
+  </script>
 </head>
-<body bgcolor="#FFD0D0">
+<body bgcolor="#FFD0D0" class="unselectable">
   <div id="sticky">
     <div id="profilephoto">
       <img src="icon.jpg" height="150px" width="150px"/>
